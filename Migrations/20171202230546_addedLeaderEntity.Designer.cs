@@ -11,9 +11,10 @@ using System;
 namespace OakwoodApp.Migrations
 {
     [DbContext(typeof(OakwoodDbContext))]
-    partial class OakwoodDbContextModelSnapshot : ModelSnapshot
+    [Migration("20171202230546_addedLeaderEntity")]
+    partial class addedLeaderEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

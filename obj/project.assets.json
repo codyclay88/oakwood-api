@@ -12597,11 +12597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_Programming\\OakwoodApp\\API\\OakwoodApp.csproj",
+      "projectUniqueName": "c:\\_Programming\\Projects\\OakwoodApp\\API\\OakwoodApp.csproj",
       "projectName": "OakwoodApp",
-      "projectPath": "C:\\_Programming\\OakwoodApp\\API\\OakwoodApp.csproj",
+      "projectPath": "c:\\_Programming\\Projects\\OakwoodApp\\API\\OakwoodApp.csproj",
       "packagesPath": "C:\\Users\\Cody Clay\\.nuget\\packages\\",
-      "outputPath": "C:\\_Programming\\OakwoodApp\\API\\obj\\",
+      "outputPath": "c:\\_Programming\\Projects\\OakwoodApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12615,7 +12615,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\_Programming\\LocalNugetPackages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://terralytix.pkgs.visualstudio.com/_packaging/Terralytix/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -12631,27 +12633,27 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
-          },
-          "Npgsql.EntityFrameworkCore.PostgreSQL": {
-            "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           }
         },
         "imports": [

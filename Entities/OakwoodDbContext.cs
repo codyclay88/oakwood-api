@@ -12,5 +12,6 @@ namespace OakwoodApp.Entities
 
         public DbSet<Ministry> Ministries { get; set; }
         public DbSet<OakwoodEvent> OakwoodEvents { get; set; }
+        public DbSet<Leader> Leaders { get; set; }
     }
 }
